@@ -1,0 +1,70 @@
+header nav{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+header span{
+    margin-top: 12px;
+    padding-left: 8px;
+}
+
+header  nav *{
+    float: left;
+    width: 10%;
+    
+}
+header nav ul {
+    float:  left;
+    width: 60%;
+    list-style-type: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header  nav input{
+    margin-top: 12px;
+    width: 100%;
+}
+section > section {
+    float: left;
+    width: 50%;
+}
+.right-section{
+    width: 50%;
+    margin-top: 70px;
+    height: 400px;
+
+    box-sizing: border-box;
+}
+.right-section > section {
+    width: 100%;
+}
+.america{
+    float: left;
+}
+.vaccine{
+    float: right;
+}
+.right-section > section + section > article:nth-child(1){
+    float: left;
+}
+.right-section > section + section > article:nth-child(2){
+    float: right;
+}
+.bottom-section{
+    clear: both;
+    margin-top: 30em;
+}
+.Biden{
+    float: left;
+    width: 33.33%;
+}
+.protest{
+ float: left;
+ width: 33.33%;
+}
+.hair{
+    float: left;
+    width: 33.33%;
+}
